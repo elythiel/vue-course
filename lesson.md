@@ -6,10 +6,13 @@
 - @click - permettant l'affichage d'un autre composant
   - Aperçu de la carte en gros
 
-## 2. Système permettant d'ajouter une carte
-### 2.a. Ajout de vue-router au projet
+## 2. Pinia
+### Passage des datas dans Pinia
 
-### 2.b. Page de création de carte
+## 3. Système permettant d'ajouter une carte
+### 3.a. Ajout de vue-router au projet
+
+### 3.b. Page de création de carte
 Formulaire de création :
 - inputs v-model
 - @submit sur le formulaire
@@ -21,9 +24,6 @@ Formulaire de création :
 ## Système de filtres
 
 - onMounted -> fetch des datas
-- store pinia
-    - enregistrer les datas fetch dans le store
-
 - computed
 - Enregistrement des filtres dans le store
 

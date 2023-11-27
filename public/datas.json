@@ -1,5 +1,5 @@
 {
-  "card": [
+  "cards": [
     {
       "name": "Bill le poney",
       "cost": ["white", "none", "none", "none"],
@@ -14,6 +14,7 @@
       "cost": ["white", "none", "none"],
       "description": "Au début du combat pendant votre tour, une créature ciblée acquiert, selon votre choix, l'initiative ou la vigilance jusqu'à la fin du tour. Si cette créature est équipée, elle acquiert l'initiative et la vigilance jusqu'à la fin du tour à la place.\nLes capacités d'équipement que vous activez coûtent 1 de moins à activer.",
       "types": "Créature légendaire : humain et noble",
+      "isLegendary": true,
       "attack": 2,
       "defense": 4
     },
@@ -22,6 +23,7 @@
       "cost": ["blue", "none", "none"],
       "description": "À chaque fois que Elrond, Lord of Rivendell ou une autre créature arrive sur le champ de bataille sous votre contrôle, regard . Si c'est la deuxième fois que cette capacité s'est résolue ce tour-ci, l'Anneau vous tente.",
       "types": "Créature légendaire : elfe et noble",
+      "isLegendary": true,
       "attack": 3,
       "defense": 2
     },
@@ -30,6 +32,7 @@
       "cost": ["blue", "none", "none", "none", "none"],
       "description": "Parade 2\nÀ chaque fois que vous lancez votre deuxième sort à chaque tour, amassez des orques .",
       "types": "Créature légendaire : avatar et sorcier",
+      "isLegendary": true,
       "attack": 4,
       "defense": 4
     },
@@ -38,6 +41,7 @@
       "cost": ["blue", "none", "none", "none"],
       "description": "Flash\nVous pouvez lancer des sorts de rituel comme s'ils avaient le flash.\nÀ chaque fois que l'Anneau vous tente, si vous choisissez une créature autre que Gandalf, Friend of the Shire comme votre porteur de l'Anneau, piochez une carte.",
       "types": "Créature légendaire : avatar et sorcier",
+      "isLegendary": true,
       "attack": 2,
       "defense": 4
     },
@@ -46,6 +50,7 @@
       "cost": ["black", "none", "none"],
       "description": "Contact mortel\nQuand Nazgûl arrive sur le champ de bataille, L'Anneau vous tente.\nÀ chaque fois que l'Anneau vous tente, mettez un marqueur +1/+1 sur chaque apparition que vous contrôlez.\nUn deck peut contenir jusqu'à neuf cartes appelées Nazgûl.",
       "types": "Créature : apparition et chevalier",
+      "isLegendary": false,
       "attack": 1,
       "defense": 2
     }

@@ -1,7 +1,7 @@
 export type CardColor =  'blue' | 'red' | 'white' | 'black' | 'green' | 'none';
 
 export type CardCost = {
-  [colorKey: CardColor]: number;
+  [colorKey in CardColor]?: number;
 };
 
 export type Card = {
@@ -12,5 +12,5 @@ export type Card = {
   isLegendary: boolean;
   attack: number;
   defense: number;
-  image: string;
+  image: string|File|null;
 }
